@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "es2015", "stage-0", "stage-1", "stage-2", "stage-3"
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    [ "transform-runtime", { "polyfill": true, "regenerator": true, "es6-promise": true } ]
+  ]
+}
